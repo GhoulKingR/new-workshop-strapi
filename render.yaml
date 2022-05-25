@@ -3,6 +3,7 @@ services:
     name: strapi
     env: node
     plan: free
+    repo: https://github.com/TheGhoulRe/new-workshop-strapi
     buildCommand: yarn install && yarn build
     startCommand: yarn start
     healthCheckPath: /_health
