@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: strapi-backend
     env: node
     plan: free
     repo: https://github.com/TheGhoulRe/new-workshop-strapi
